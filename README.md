@@ -44,3 +44,45 @@ new_list = basket.extend([100, 101])
 
 basket.remove(100)
 print(basket)
+
+#list methods
+basket = ['a', 'b', 'c', 'd']
+print(basket.count('b'))
+
+#list methods
+basket = ['a', 'b', 'c', 'd', 'b']
+print(basket.sort)
+print(sorted(basket))
+
+sentence = ' '
+new_sentence = ' '.join(['hi ', 'my ', 'name ', 'is ', 'pradip '])
+print(new_sentence)
+
+a, b, c, *other = [1, 2, 3, 4, 5, 6] #list unpacking
+print(a)
+print(b)
+print(c)
+print(other)
+
+****
+#dictionary************
+dictionary = {
+  'a' : 1,
+  'b' : 2
+}
+print(dictionary['b'])
+
+#dictionary
+dictionary = {
+  'a' : 1,
+  'b' : 2,
+  'x' : 3
+}
+my_list = {
+  'a' : 1,
+  'b' : 2,
+  'y' : 3
+
+}
+print(my_list)
+print(dictionary)
