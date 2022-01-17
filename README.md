@@ -86,3 +86,12 @@ my_list = {
 }
 print(my_list)
 print(dictionary)
+
+
+#dictionary keys
+dictionary = {
+  123: [1, 2, 3],
+  True: 'hello',
+  'is magic': True
+}
+print(dictionary[True])
