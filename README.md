@@ -190,5 +190,57 @@ for i,char in enumerate('1, 2, 3'):
  if char == 50:
    print(f'index of 50 is: {i}')
   
+  #while loop
+
+#while loop
+
+i = 0
+while 50 < 50:
+  print(i)
+  i += 1
+  break
+else: # special case, make sure its excuted only the lopp is finisged without the break 
+ print('done with all the work')
   
   
+  #while loop 2
+
+while True:
+  response = input('say somethin: ')
+  if (response == 'bye'):
+    break
+  
+
+#break continue and pass
+
+
+
+myList = [1, 2, 3]
+for item in myList:
+  pass
+  print(item)
+
+i = 0
+while i < len(myList):
+  print(myList)
+  i +=1
+  pass
+  
+  #exercise
+  picture = [
+  [0,0,0,1,0,0,0],
+  [0,0,1,1,1,0,0],
+  [0,1,1,1,1,1,0],
+  [1,1,1,1,1,1,1],
+  [0,0,0,1,0,0,0],
+  [0,0,0,1,0,0,0]
+]
+
+for image in picture:
+  for pixel in image:
+    if (pixel == 1):
+      print('*', end= '')
+          
+    else:
+      print('')
+      
