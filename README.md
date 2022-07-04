@@ -253,4 +253,37 @@ for value in some_list:
     
 
 print(duplicate)
+
+def sum(num1, num2): #Function can return sth by giving command for return value
+  return num1 + num2
+print('hi')
+print('hello')
+print(sum(10, 5))
+
+def sum(num1, num2):
+  def another_function(n1, n2):
+    return n1 + n2
+    return another_function(num1, num2)
+    print('hello')
+    
+
+total = sum(10, 20)
+
+print(total)
+
+def checkDriverAge(age=20):
+  if age == 0: age = input("What is your age?: ")
+  while age == '':
+   age = input("What is your age?: ")
+
+  if int(age) < 18:
+        print("Sorry, you are too young to drive this car. Powering off")
+  elif int(age) > 18:
+        print("Powering On. Enjoy the ride!");
+  elif int(age) == 18:
+        print("Congratulations on your first year of driving. Enjoy the ride!")
+
+    
+
+checkDriverAge(18)
   
