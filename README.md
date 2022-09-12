@@ -286,4 +286,61 @@ def checkDriverAge(age=20):
     
 
 checkDriverAge(18)
+
+def highest_even(li):   # 
+  evens = []
+  for item in li:
+    if item % 2 == 0:
+      evens.append(item)
+  return max(evens)
+  
+print(highest_even([10, 2, 6, 8,]))
+
+#walrus operator
+
+a = 'helllllllllllllllloooooo'
+if ((n := len(a)) > 10):
+  
+  
+  print(f' too long {n} elements')
+
+while ((n := len(a)) > 1):
+  print(n)
+  a = a[:-1]
+  
+  #Scope, sth present in a lot of programming language, what variable do i have acces to?
+'''functiona l scope'''
+
+if True:
+  x = 10
+
+print(x)
+
+a = 1
+
+def parent():
+
+  
+  def confusion():
+    return(a)
+  return(confusion())
+  
+print(parent())
+print(a)
+
+#start with local 
+# parent local 
+#global 
+#built in python functions
+
+#global keyword
+total = 0
+def count():
+  global total
+  total += 1
+  return total
+
+count()
+count()
+print(count())
   
