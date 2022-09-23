@@ -343,4 +343,20 @@ def count():
 count()
 count()
 print(count())
+
+#object Oriented programming
+# working for amazon, delivery drones, code this drone, function, condition logic.If programms becomes large, millions. How can we use OOP to make the code manageable. It is way to make the code eaiser to maintain, write, think, strucuture, extent. For example: Camera, vison another developer 
+# Creating your own class
+
+class PlayerCharacter:
+  def __int__(self, name):
+    self.name = name
+
+  def run(self):
+    print('run')
   
+player1 = PlayerCharacter()
+player2 = PlayerCharacter('Tome')
+
+print(player1)
+print(player2)
